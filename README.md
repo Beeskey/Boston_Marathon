@@ -1,13 +1,13 @@
-# Target
+## Target
 The goal of this project was to experiment with clustering as a tool for feature engineering.
 
-# Dataset
+## Dataset
 The data for this project was 2014 Boston marathon participant data including: name, gender, age, country, city, times for various checkpoints (5K, 10K, 15K, etc.), final official time, rank in division, rank in gender division. 
 
-# Tools and Process
+## Tools and Process
 To achieve this I use cluster visualizations, silhouette coefficients, and elbow method analysis to determine an ideal number of clusters. From there, I create an KMeans model with the ideal cluster size and add the output as a 'cluster' column to the data set. The final task is understanding what each cluster represents through visualization and statistical analysis, including ratio plots for many features against the clusters.
 
-# Conclusions
+## Conclusions
 I was able to determine ideal cluster size was either 3 or 4, so I performed analyses of both and compared. 
 The 3 cluster model story:
 - Cluster 1 was the smallest cluster, and seemed to be mostly younger (18-40) casual local runners (mostly from Massachusetts, especially Boston) with the longest times.
